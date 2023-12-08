@@ -54,7 +54,7 @@ function onItemClick(e) {
         checkUI();
     } else {
         editMode = true;
-        const item-
+
     }
 }
 
