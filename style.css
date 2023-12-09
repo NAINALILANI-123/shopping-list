@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
 
 *,
 *::before,
@@ -120,12 +120,12 @@ header h1 {
   font-weight: 700;
 }
 
+.edit-mode {
+  color: #ccc;
+}
+
 @media (max-width: 500px) {
   .items li {
     width: 100%;
   }
-}
-
-.edit-mode {
-  color: #ccc;
 }

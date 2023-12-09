@@ -110,7 +110,7 @@ function onItemClick(e) {
         const item = e.target;
         itemList.querySelectorAll('li').forEach(li => li.classList.remove('edit-mode'));
         item.classList.add('edit-mode');
-        addEditBtn.innerHTML = `<i class='fa-solid fa-pen'></i> Edit Item`;
+        addEditBtn.innerHTML = "<i class='fa-solid fa-pen'></i> Edit Item";
         addEditBtn.style.background = '#228b22';
         itemInput.value = item.textContent;
         itemInput.focus();
@@ -142,7 +142,7 @@ function checkUI(e) {
     itemInput.focus();
     itemInput.value = '';
     addEditBtn.style.background = '#333';
-    addEditBtn.innerHTML = `<i class='fa-solid fa-plus'></i> Add Item`;
+    addEditBtn.innerHTML = "<i class='fa-solid fa-plus'></i> Add Item";
     editMode = false;
 
     if (items.length === 0) {
